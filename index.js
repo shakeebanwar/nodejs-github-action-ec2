@@ -3,7 +3,7 @@ const app = express();
 
 // Endpoint 1: Home
 app.get('/', (req, res) => {
-  res.send('Welcome to the github actions!');
+  res.send('Welcome to the home page!');
 });
 
 // Endpoint 2: Greeting
