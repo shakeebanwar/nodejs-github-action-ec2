@@ -24,9 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: pm2 restart index.js
-    - run: docker ps
-    - run: pwd
+    # - run: npm ci
+    # - run: npm run build --if-present
+    # - run: pm2 restart index.js
+    - run: docker-compose up --build -d
+ 
 
