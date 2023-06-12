@@ -3,7 +3,7 @@ const app = express();
 
 // Endpoint 1: Home
 app.get('/', (req, res) => {
-  res.send('Deploy nodejs app with github self hosted runner');
+  res.send('Deploy nodejs app with github self hosted runner!');
 });
 
 // Endpoint 2: Greeting
